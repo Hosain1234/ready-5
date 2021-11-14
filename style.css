@@ -1,0 +1,152 @@
+body{
+    background-color: #ffff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.nav-item{
+    margin-right: 20px;
+    font-size: small;
+}
+.dropdown-item{
+    font-size: small;
+}
+.first-part img{
+    width: 100%;
+}
+.text-1{
+    margin-top: 90px;
+}
+.text-1 h1{
+    font-size: 50px;
+}
+.text-1 p{
+    color: rgb(19, 18, 18, 0.7);
+}
+.btn-1{
+    font-size: small;
+    background-color: #1877f2;
+    color: white;
+    border: 2px solid #1877f2;
+    border-radius: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.btn-1:hover{
+    font-size: small;
+    margin-top: 5px;
+    background-color: white;
+    color: #1877f2;
+    border: 2px solid hsl(0, 3%, 6%, 0.2);
+    border-radius: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.btn-2, .btn-3{
+    font-size: small;
+    margin-top: 5px;
+    background-color: white;
+    color: #1877f2;
+    border: 2px solid hsl(0, 3%, 6%, 0.2);
+    border-radius: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.btn-2:hover{
+    font-size: small;
+    background-color: #1877f2;
+    color: white;
+    border: 2px solid #1877f2;
+    border-radius: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.get-start-btn{
+    text-align: center;
+}
+.btn-3:hover{
+    background-color: rgb(22, 21, 21, 0.9);
+    color: white;
+}
+.wf-management{
+    text-align: center;
+}
+.wf-management p{
+    color: rgb(19, 18, 18, 0.7);
+}
+.card-icon-1{
+    margin-left: 45%;
+}
+.card .learn-more{
+    text-align: center;
+    color: red;
+}
+.card .card-title{
+    text-align: center;
+}
+.card .card-text{
+    text-align: center;
+}
+.card{
+    border-radius: 5px;
+    box-shadow: 1px 3px 20px rgba(136, 133, 133, 0.4);
+}
+.card:hover{
+    background-color: rgb(22, 21, 21, 0.9);
+    color: white;
+}
+.video-ctrl{
+    width: 320px;
+    height: 240px;
+}
+.promo-txt-1{
+    text-align: center;
+}
+.promo-txt-2{
+    text-align: center;
+}
+.amount{
+    font-size: 60px;
+}
+.amount-details{
+    font-size: smaller;
+    text-align: center;
+    color: rgb(19, 18, 18, 0.7);
+}
+.inline{
+    display: flex;
+}
+.inline img{
+    width: 100%;
+}
+.box{
+    border: none;
+}
+.box p{
+    top: 50%;
+    left: 30px;
+}
+.img img{
+    width: 100%;
+}
+.for-text{
+    margin-top: 20%;
+}
+.for-text p{
+    color: rgb(19, 18, 18, 0.7);
+}
+.btn-4{
+    border: none;
+    background-color: white;
+    color: #1877f2;
+}
+.break-2 img{
+    width: 100%;
+    height: 200px;
+}
