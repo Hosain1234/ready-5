@@ -190,9 +190,7 @@ body{
     width: 100%;
     border-radius: 50px;
 }
-.for-text{
-    display: flex;
-}
-.for-text p{
+.for-sms p{
     font-size: xx-small;
+    margin-top: 20px;
 }
