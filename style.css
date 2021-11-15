@@ -54,7 +54,7 @@ body{
     font-size: small;
     margin-top: 5px;
     background-color: white;
-    color: #1877f2;
+    color: green;
     border: 2px solid hsl(0, 3%, 6%, 0.2);
     border-radius: 2px;
     padding-left: 20px;
@@ -193,4 +193,28 @@ body{
 .for-sms p{
     font-size: xx-small;
     margin-top: 20px;
+}
+.fp{
+    padding: 30px;
+}
+.ac{
+    text-align: center;
+}
+.bf{
+    font-size: 50px;
+}
+.div{
+    text-align: center;
+}
+.icon-text{
+    display: flex;
+}
+.icon-text p{
+    font-size: smaller;
+}
+.icn-clr{
+    color: green;
+}
+.icn-clr-2{
+    color: red;
 }
