@@ -13,63 +13,67 @@
 </head>
 <body>
   <!-- this is navigation bar -->
-  <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">LOGO</a>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Homepages
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Item 1</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Item 2</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Item 3</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Service</a>
-            </li>
-            
-            <li class="nav-item">
-              <a class="nav-link">Work</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Blog</a>
-            </li>
-          </ul>
-          <form class="d-flex">
-            <a href=""><i class="bi bi-search"></i></a>
-          </form>
+  <section class="first-bg">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light g-4">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">LOGO</a>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Homepages
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Item 1</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Item 2</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Item 3</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Service</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link">Work</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <a href=""><i class="bi bi-search"></i></a>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- next container after navbar -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+            <div class="text-1">
+              <h1>Create unlimited<br> automated workflows</h1><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid assumenda vitae voluptates, sequi velit dolorem.</p>
+            </div><br>
+            <div>
+              <button class="btn-1">Get started</button>
+              <button class="btn-2">Free Trial</button>
+            </div>
+        </div>
+        <div class="col-md-6 first-part">
+            <img src="asset/first-removebg-preview.png" alt="image here..">
+            <i class="bi bi-mouse fa-lg"></i>
         </div>
       </div>
-    </nav>
-  </div>
-  <!-- next container after navbar -->
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6">
-          <div class="text-1">
-            <h1>Create unlimited<br> automated workflows</h1><br>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid assumenda vitae voluptates, sequi velit dolorem.</p>
-          </div><br>
-          <div>
-            <button class="btn-1">Get started</button>
-            <button class="btn-2">Free Trial</button>
-          </div>
-      </div>
-      <div class="col-md-6 first-part">
-          <img src="asset/first-removebg-preview.png" alt="image here..">
-      </div>
     </div>
-  </div><br><br><br><br><br>
+  </section>
+  <br><br><br><br><br>
   <!-- this is for text -->
   <div class="container wf-management">
     <h4>Everything you need in workflow management</h4>
@@ -79,7 +83,7 @@
   <div class="container">
     <div class="row row-cols-1 row-cols-md-3 g-4">
       <div class="col">
-        <div class="card ">
+        <div class="card first-box">
           <div class="card-body">
             <div>
               <a class="card-icon-1" href=""><i class="fas fa-braille fa-3x"></i></a>
@@ -95,7 +99,7 @@
         </div>
       </div>
       <div class="col">
-        <div class="card ">
+        <div class="card first-box">
           <div class="card-body">
             <div>
               <a class="card-icon-1" href=""><i class="fas fa-cogs fa-3x"></i></a>
@@ -111,7 +115,7 @@
         </div>
       </div>
       <div class="col">
-        <div class="card ">
+        <div class="card first-box">
           <div class="card-body">
             <div>
               <a class="card-icon-1" href=""><i class="fas fa-comment fa-3x"></i></a>
@@ -279,43 +283,88 @@
   <div class="container">
     <div class="row row-cols-1 row-cols-md-3 g-4">
       <div class="col">
-        <div class="card h-100">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <div class="card h-100 second-card">
+          <img src="ASSET/people/image 11.png" class="card-img-top" alt="...">
+          <div class="card-body card-2">
+            <h5 class="card-title">Abdullah Al Hosain</h5>
+            <p class="text-muted">SOFTWARE ENGINEER</p>
+            <p class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, temporibus! </p>
           </div>
-          <div class="card-footer">
-            <small class="text-muted">Last updated 3 mins ago</small>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card h-100">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-          </div>
-          <div class="card-footer">
-            <small class="text-muted">Last updated 3 mins ago</small>
+          <div class="for-icon">
+            <a href="https://www.facebook.com/profile.php?id=100007880266918"> <i class="bi bi-facebook fa-lg"></i></a>
+            <a href="#"><i class="bi bi-instagram fa-lg"></i></a>
+            <a href="#"><i class="bi bi-twitter fa-lg"></i></a>
           </div>
         </div>
       </div>
       <div class="col">
-        <div class="card h-100">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        <div class="card h-100 second-card">
+          <img src="ASSET/people/image 10.png" class="card-img-top" alt="...">
+          <div class="card-body card-2">
+            <h5 class="card-title">Abdullah Al Hosain</h5>
+            <p class="text-muted">SOFTWARE ENGINEER</p>
+            <p class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, temporibus! </p>
           </div>
-          <div class="card-footer">
-            <small class="text-muted">Last updated 3 mins ago</small>
+          <div class="for-icon">
+            <a href="https://www.facebook.com/profile.php?id=100007880266918"> <i class="bi bi-facebook fa-lg"></i></a>
+            <a href="#"><i class="bi bi-instagram fa-lg"></i></a>
+            <a href="#"><i class="bi bi-twitter fa-lg"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 second-card">
+          <img src="ASSET/people/image 11.png" class="card-img-top" alt="...">
+          <div class="card-body card-2">
+            <h5 class="card-title">Abdullah Al Hosain</h5>
+            <p class="text-muted">SOFTWARE ENGINEER</p>
+            <p class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, temporibus! </p>
+          </div>
+          <div class="for-icon">
+            <a href="https://www.facebook.com/profile.php?id=100007880266918"> <i class="bi bi-facebook fa-lg"></i></a>
+            <a href="#"><i class="bi bi-instagram fa-lg"></i></a>
+            <a href="#"><i class="bi bi-twitter fa-lg"></i></a>
           </div>
         </div>
       </div>
     </div>
   </div><br><br><br>
+  <!-- here i will add a picture -->
+  <section class="part-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-md-4">
+          <div class="card card-3 h-60">
+            <p class="card-start"><i class="bi bi-chat-quote-fill fa-3x"></i></p>
+            <div class="card-body">
+              <small class="text-muted card-3-txt">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur, sed odit. Officiis adipisci obcaecati eligendi.</small>
+              <div class="row">
+                <div class="col-md-3 for-pic">
+                  <img src="asset/people/people-1.jpg" alt="">
+                </div>
+                <div class="col-md-4 for-text justify-content-center">
+                  <p>ABDULLAH AL HOSAIN</p><br>
+                  <p class="text-muted">CEO of RandCo</p>
+                </div>
+                <div class="col-md-4 for-dot">
+
+                </div>
+                <div class="col-sm-1"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6"></div>
+      </div>
+    </div>
+  </section>
+  <br><br><br>
+  <!-- new container here -->
+  <div class="container wf-management">
+    <h4>Flexible pricing for unique needs</h4>
+    <p class="text-muted">Startflow is a subscription-based software, which means you have to pay <br> annual subscription fee to use the software, <span>in the cloud</span> or on your server </p>
+  </div><br><br>
 
 
 
