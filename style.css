@@ -218,3 +218,18 @@ body{
 .icn-clr-2{
     color: red;
 }
+.last-card img{
+    width: 100%;
+}
+.lcf img{
+    border-radius: 30px;
+    margin: 15px;
+}
+.lcf p{
+    font-size: xx-small;
+    display: inline;
+}
+.card-footer{
+    background-color: white;
+    border: none;
+}
