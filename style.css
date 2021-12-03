@@ -160,6 +160,9 @@ body{
 .second-card{
     border: none;
 }
+.second-card img{
+    border-radius: 50%;
+}
 .card-2{
     text-align: center;
 }
@@ -223,8 +226,7 @@ body{
     width: 100%;
 }
 .lcf img{
-    border-radius: 30px;
-    margin: 15px;
+    border-radius: 50%;
 }
 .lcf p{
     font-size: xx-small;
