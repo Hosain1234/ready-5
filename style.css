@@ -191,7 +191,8 @@ body{
 .part-3{
     border: 2px solid black;
     height: 400px;
-    background: url(asset/happy.jpg);
+    background-image: url(ASSET/happy.jpg);
+    background-repeat: no-repeat;
 }
 .card-3{
     top: 50px;
