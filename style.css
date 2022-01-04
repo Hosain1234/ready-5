@@ -193,6 +193,7 @@ body{
     height: 400px;
     background-image: url(ASSET/happy.jpg);
     background-repeat: no-repeat;
+    background-color: black;
 }
 .card-3{
     top: 50px;
